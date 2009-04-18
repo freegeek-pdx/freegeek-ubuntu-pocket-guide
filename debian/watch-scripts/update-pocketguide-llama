@@ -1,0 +1,5 @@
+#!/bin/sh
+
+exec >/dev/null 2>/dev/null
+
+curl http://www.ubuntupocketguide.com/download.html | grep Current | sed -r 's/.*>Current release: ([^<]+)<.*/\1/' | under-myagent ssh llama sponge pocketguide-file
