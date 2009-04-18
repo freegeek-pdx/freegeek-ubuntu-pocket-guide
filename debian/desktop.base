@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ubuntu Pocket Guide
+GenericName=Ubuntu Pocket Guide
+Comment=Ubuntu Pocket Guide and Reference
+Exec=evince /usr/share/ubuntu-pocket-guide/FOOBAR
+#Icon=gSTM.png
+Terminal=false
+Type=Application
+#Categories=Application;GTK;GNOME;Network;

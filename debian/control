@@ -1,0 +1,23 @@
+Source: freegeek-ubuntu-pocket-guide
+Section: misc
+Priority: optional
+Maintainer: Ryan Niebur <ryanryan52@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.1
+Homepage: http://www.ubuntupocketguide.com/
+
+Package: freegeek-ubuntu-pocket-guide
+Architecture: all
+Depends: ${misc:Depends}, evince
+Description: The ultimate Ubuntu book!
+ Written by award-winning author Keir Thomas, Ubuntu Pocket Guide and
+ Reference is a totally unique and concise guide for everyday Ubuntu
+ use. It's the world's most popular Ubuntu book, with over half a
+ million readers (and rising!).
+ .
+  * Focuses on core competencies and background knowledge needed to be
+    an expert Ubuntu user;
+  * Readable, accessible, and easy to understand—even if you've never
+    used Linux before;
+  * 100% new and original! Written from the ground-up to cover Ubuntu
+    8.04 and 8.10.

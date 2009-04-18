@@ -1,0 +1,57 @@
+This package was debianized by Ryan Niebur <ryanryan52@gmail.com> on
+Sat, 18 Apr 2009 12:08:46 -0700.
+
+It was downloaded from <http://www.ubuntupocketguide.com/download3.html>
+
+Upstream Author:
+
+    Keir Thomas
+
+Copyright:
+
+    Copyright © 2009 by Keir Thomas. All rights reserved.
+
+License:
+
+    This  book  is  distributed  in  two  editions:  as  a  printed  book  (“Print  Edition”),
+    and as a PDF computer file (“PDF Edition”).
+
+    No part of the Print Edition of this work may be reproduced or transmitted in
+    any form or by any means, electronic or mechanical, including photocopying,
+    recording, or by any information storage or retrieval system, without the prior
+    written permission of the copyright owner.
+
+    Permission  is  granted  to  redistribute  electronically  the  unmodified  and
+    complete  computer  file  that  comprises  the  PDF  Edition  of  this  work.  This
+    permission does not impair or restrict the author’s moral rights, or grant any
+    additional permissions. Without the prior written permission of the copyright
+    owner  any  or  all  of  the  following  is  not  permitted:  (i)  altering,  editing,  or
+    otherwise modifying the file that comprises the PDF Edition of this work; (ii)
+    printing or publishing this work in any form (including but not limited to print‐
+    on‐demand  services);  (iii)  selling,  retailing,  or  offering  in  exchange  for  any
+    kind of compensation the file that comprises the PDF Edition of this work or
+    any  of  its  content;  (iv)  redistributing  some  or  all  extracted  or  excerpted
+    content from this work; (v) redistributing some or all content of this work in a
+    different format (for example but not limited to HTML or plain text).
+
+    ISBN (EAN‐13): 978‐1440478291
+
+    The Ubuntu logo is a registered trademark of Canonical Ltd and is used with
+    permission.
+
+    Trademarked  names  may  appear  in  this  book.  Rather  than  use  a  trademark
+    symbol  with  every  occurrence  of  a  trademarked  name,  we  use  the  names
+    only in an editorial fashion and to the benefit of the trademark owner, with
+    no intention of infringement of the trademark.
+
+    For  information  on  translations  and/or  licensing,  please  email
+    licensing@ubuntupocketguide.com.
+
+    The  information  in  this  book  is  distributed  on  an  “as  is”  basis  without
+    warranty.  Although  every  precaution  has  been  taken  in  the  preparation  of
+    this  work,  neither  the  author  nor  publishers  shall  have  any  liability  to  any
+    person or entity with respect to any loss or damage caused or alleged to be
+    caused  directly  or  indirectly  by  the  information  contained  in  this  work.
+
+The Debian packaging is copyright 2009, Ryan Niebur <ryanryan52@gmail.com> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
