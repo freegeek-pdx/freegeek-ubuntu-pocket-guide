@@ -1,3 +1,9 @@
+freegeek-ubuntu-pocket-guide (1.1-2) ubuntu; urgency=low
+
+  * switch distribution to ubuntu
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Sat, 18 Apr 2009 15:16:17 -0700
+
 freegeek-ubuntu-pocket-guide (1.1-1) unstable; urgency=low
 
   * Initial release
