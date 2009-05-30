@@ -14,10 +14,8 @@ if [ -f /usr/share/ubuntu-pocket-guide/.evil ]; then
         fi
     done
     rm -f /usr/share/ubuntu-pocket-guide/.evil
-    if [ -d /usr/share/ubuntu-pocket-guide/ ]; then
-        if [ -z "$(ls -A /usr/share/ubuntu-pocket-guide/)" ]; then
-            rmdir /usr/share/ubuntu-pocket-guide/
-        fi
+    if [ -z "$(ls -A /usr/share/ubuntu-pocket-guide/)" ]; then
+        rmdir /usr/share/ubuntu-pocket-guide/
     fi
 fi
 
