@@ -6,4 +6,4 @@ Exec=evince /usr/share/ubuntu-pocket-guide/FOOBAR
 #Icon=foobar.png
 Terminal=false
 Type=Application
-#Categories=Application;GTK;GNOME;Network;
+

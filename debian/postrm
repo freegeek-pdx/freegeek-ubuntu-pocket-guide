@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+if [ -f /usr/share/ubuntu-pocket-guide/.evil ]; then
+    for HOMEDIR in /root /home/* /etc/skel/; do
+        THEIR_USERNAME=$(basename $HOMEDIR)
+        DESKTOP=$HOMEDIR/Desktop/
+        if [ "$THEIR_USERNAME" = "skel" ]; then
+            THEIR_USERNAME=root
+        fi
+        if [ -h $DESKTOP/ubuntu-pocket-guide.desktop -a "$(readlink -f $DESKTOP/ubuntu-pocket-guide.desktop)" = "/usr/share/applications/ubuntu-pocket-guide.desktop" ]; then
+            rm -f $DESKTOP/ubuntu-pocket-guide.desktop
+        fi
+    done
+    rm -f /usr/share/ubuntu-pocket-guide/.evil
+fi
+
+if [ -d /usr/share/ubuntu-pocket-guide/ ]; then
+    if [ -z "$(ls -A /usr/share/ubuntu-pocket-guide/)" ]; then
+        rmdir /usr/share/ubuntu-pocket-guide/
+    fi
+fi
+
+#DEBHELPER#

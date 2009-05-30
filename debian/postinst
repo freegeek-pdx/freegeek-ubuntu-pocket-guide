@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+if [ ! -f /usr/share/ubuntu-pocket-guide/.evil ]; then
+    for HOMEDIR in /root /home/* /etc/skel/; do
+        THEIR_USERNAME=$(basename $HOMEDIR)
+        DESKTOP=$HOMEDIR/Desktop/
+        if [ "$THEIR_USERNAME" = "skel" ]; then
+            THEIR_USERNAME=root
+        fi
+        if [ ! -e $DESKTOP/ubuntu-pocket-guide.desktop ]; then
+            if [ ! -d $DESKTOP ]; then
+                mkdir -p $DESKTOP
+                chown $THEIR_USERNAME:$THEIR_USERNAME $HOMEDIR/Desktop/
+            fi
+            ln -s /usr/share/applications/ubuntu-pocket-guide.desktop $DESKTOP/ubuntu-pocket-guide.desktop
+            chown $THEIR_USERNAME:$THEIR_USERNAME $DESKTOP/ubuntu-pocket-guide.desktop
+        fi
+    done
+    touch /usr/share/ubuntu-pocket-guide/.evil
+fi
+
+#DEBHELPER#
