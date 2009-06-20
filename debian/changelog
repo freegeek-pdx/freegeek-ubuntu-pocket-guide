@@ -1,3 +1,9 @@
+freegeek-ubuntu-pocket-guide (1.1-4) UNRELEASED; urgency=low
+
+  * use the ubuntu logo for the pocket guide link
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Sat, 20 Jun 2009 13:19:25 -0700
+
 freegeek-ubuntu-pocket-guide (1.1-3) ubuntu; urgency=low
 
   * add the link to the pocket guide to the desktop

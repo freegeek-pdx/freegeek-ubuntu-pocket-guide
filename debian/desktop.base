@@ -3,7 +3,7 @@ Name=Ubuntu Pocket Guide
 GenericName=Ubuntu Pocket Guide
 Comment=Ubuntu Pocket Guide and Reference
 Exec=evince /usr/share/ubuntu-pocket-guide/FOOBAR
-#Icon=foobar.png
+Icon=distributor-logo
 Terminal=false
 Type=Application
 
