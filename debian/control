@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Ryan Niebur <ryanryan52@gmail.com>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.1
+Standards-Version: 3.8.2
 Homepage: http://www.ubuntupocketguide.com/
 
 Package: freegeek-ubuntu-pocket-guide
