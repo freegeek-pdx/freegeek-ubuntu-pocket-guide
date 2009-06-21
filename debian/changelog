@@ -1,3 +1,9 @@
+freegeek-ubuntu-pocket-guide (1.1-5) UNRELEASED; urgency=low
+
+  * fix ownership of the .desktop files
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Sat, 20 Jun 2009 18:10:46 -0700
+
 freegeek-ubuntu-pocket-guide (1.1-4) ubuntu; urgency=low
 
   * use the ubuntu logo for the pocket guide link
