@@ -4,6 +4,7 @@ set -e
 
 if [ -f /usr/share/ubuntu-pocket-guide/.evil ]; then
     for HOMEDIR in /root /home/* /etc/skel/; do
+        test -d "$HOMEDIR" || continue
         THEIR_USERNAME=$(basename $HOMEDIR)
         DESKTOP=$HOMEDIR/Desktop/
         if [ "$THEIR_USERNAME" = "skel" ]; then
