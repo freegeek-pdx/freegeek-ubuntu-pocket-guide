@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -f /usr/share/ubuntu-pocket-guide/.evil ]; then
+if [ -f /usr/share/ubuntu-pocket-guide/.evil -a "$1" = "remove" ]; then
     for HOMEDIR in /root /home/* /etc/skel/; do
         test -d "$HOMEDIR" || continue
         THEIR_USERNAME=$(basename $HOMEDIR)
