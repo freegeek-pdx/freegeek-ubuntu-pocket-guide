@@ -23,6 +23,9 @@ if [ ! -f /usr/share/ubuntu-pocket-guide/.evil ]; then
         if echo "$HOMEDIR" | grep -q "home"; then
             test -d "$HOMEDIR" || continue
         fi
+        if echo "$HOMEDIR" | grep -q "*"; then
+            continue
+        fi
         THEIR_USERNAME=$(basename $HOMEDIR)
         DESKTOP=$HOMEDIR/Desktop/
         if [ "$THEIR_USERNAME" = "skel" ]; then
