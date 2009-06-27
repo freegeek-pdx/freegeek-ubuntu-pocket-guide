@@ -5,11 +5,7 @@ set -e
 if [ -f /usr/share/ubuntu-pocket-guide/.evil -a "$1" = "remove" ]; then
     for HOMEDIR in /root /home/* /etc/skel/; do
         test -d "$HOMEDIR" || continue
-        THEIR_USERNAME=$(basename $HOMEDIR)
         DESKTOP=$HOMEDIR/Desktop/
-        if [ "$THEIR_USERNAME" = "skel" ]; then
-            THEIR_USERNAME=root
-        fi
         if [ -h $DESKTOP/ubuntu-pocket-guide.desktop -a "$(readlink -f $DESKTOP/ubuntu-pocket-guide.desktop)" = "/usr/share/applications/ubuntu-pocket-guide.desktop" ]; then
             rm -f $DESKTOP/ubuntu-pocket-guide.desktop
         fi
