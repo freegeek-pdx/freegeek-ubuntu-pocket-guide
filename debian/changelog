@@ -1,8 +1,8 @@
-freegeek-ubuntu-pocket-guide (1.1-6) UNRELEASED; urgency=low
+freegeek-ubuntu-pocket-guide (1.1-6) ubuntu; urgency=low
 
   * fix installation when there is no home directory
 
- -- Ryan Niebur <ryanryan52@gmail.com>  Thu, 25 Jun 2009 18:20:56 -0700
+ -- Ryan Niebur <ryanryan52@gmail.com>  Sat, 27 Jun 2009 14:27:31 -0700
 
 freegeek-ubuntu-pocket-guide (1.1-5) ubuntu; urgency=low
 
