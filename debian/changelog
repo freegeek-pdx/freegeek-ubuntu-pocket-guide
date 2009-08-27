@@ -1,3 +1,11 @@
+freegeek-ubuntu-pocket-guide (1.1-7) UNRELEASED; urgency=low
+
+  * set Section to ubuntu/utils in debian/control to properly register
+    that it should be in the "ubuntu" component in the apt repository.
+  * add myself to Uploaders.
+
+ -- Vagrant Cascadian <vagrant@freegeek.org>  Thu, 27 Aug 2009 12:52:47 -0700
+
 freegeek-ubuntu-pocket-guide (1.1-6) ubuntu; urgency=low
 
   * fix installation when there is no home directory

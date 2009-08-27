@@ -1,7 +1,8 @@
 Source: freegeek-ubuntu-pocket-guide
-Section: misc
+Section: ubuntu/misc
 Priority: optional
 Maintainer: Ryan Niebur <ryanryan52@gmail.com>
+Uploaders: Vagrant Cascadian <vagrant@freegeek.org>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.2
 Homepage: http://www.ubuntupocketguide.com/
