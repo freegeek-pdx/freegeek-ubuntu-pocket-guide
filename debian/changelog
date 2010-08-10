@@ -1,4 +1,4 @@
-freegeek-ubuntu-pocket-guide (1.1-6) ubuntu; urgency=low
+freegeek-ubuntu-pocket-guide (1.1-6) freegeek-test; urgency=low
 
   * fix installation when there is no home directory
 
