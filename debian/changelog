@@ -1,3 +1,10 @@
+freegeek-ubuntu-pocket-guide (1.1-7) UNRELEASED; urgency=low
+
+  * fix permissions on the .desktop file to be executable (Closes:
+    #19267)
+
+ -- Ryan Niebur <ryan@debian.org>  Tue, 31 Aug 2010 15:53:20 -0700
+
 freegeek-ubuntu-pocket-guide (1.1-6) freegeek-test; urgency=low
 
   * fix installation when there is no home directory

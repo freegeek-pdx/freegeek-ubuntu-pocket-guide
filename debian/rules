@@ -2,15 +2,21 @@
 # -*- makefile -*-
 
 FILENAME=$(shell ls *.pdf)
+CMD=$(subst override_,,$@)
 
 override_dh_install:
 	cp debian/desktop.base debian/ubuntu-pocket-guide.desktop
 	cp debian/install.base debian/install
 	sed -i "s/FOOBAR/$(FILENAME)/" debian/install
 	sed -i "s/FOOBAR/$(FILENAME)/" debian/ubuntu-pocket-guide.desktop
+	chmod +x debian/ubuntu-pocket-guide.desktop
 	mkdir -p debian/tmp/usr/share/ubuntu-pocket-guide/ debian/tmp/usr/share/applications/
 	dh_install
 	chmod -x debian/freegeek-ubuntu-pocket-guide/usr/share/ubuntu-pocket-guide/ubuntupocketguide-v1-1.pdf
+
+override_dh_fixperms:
+	$(CMD)
+	chmod +x debian/freegeek-ubuntu-pocket-guide/usr/share/applications/ubuntu-pocket-guide.desktop
 
 build: build-stamp
 build-stamp:
